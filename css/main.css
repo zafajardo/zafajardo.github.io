@@ -1,0 +1,19 @@
+body {
+	font-family: 'Karla', sans-serif, 'Belleza', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #ff8b08;
+	
+
+}
+p {
+	font-family:Verdana,sans-serif;
+	font-size:15px;
+	line-height:1.5
+	color: red;
+}
+
+/**  Footer **/
+footer {
+	display:block;
+}
