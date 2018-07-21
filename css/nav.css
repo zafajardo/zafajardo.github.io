@@ -18,100 +18,135 @@
 	transition: 1s;
 	width: 15%;
 }
+.main_h {
+  position: fixed;
+  top: 0px;
+  max-height: 70px;
+  z-index: 999;
+  width: 100%;
+  padding-top: 17px;
+  background: none;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  top: -100px;
+  padding-bottom: 6px;
+  font-family: "Montserrat", sans-serif;
+}
+@media only screen and (max-width: 766px) {
+  .main_h {
+    padding-top: 25px;
+  }
+}
+
+.open-nav {
+  max-height: 400px !important;
+}
+.open-nav .mobile-toggle {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.sticky {
+  background-color: rgba(255, 255, 255, 0.93);
+  opacity: 1;
+  top: 0px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.logo {
+  width: 50px;
+  font-size: 25px;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  float: left;
+  display: block;
+  margin-top: 0;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 766px) {
+  .logo {
+    float: none;
+  }
+}
+
 nav {
-  max-width: 960px;
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-  margin: 0 auto;
-  padding: 10px 0;
+  float: right;
+  width: 60%;
 }
-
+@media only screen and (max-width: 766px) {
+  nav {
+    width: 100%;
+  }
+}
 nav ul {
-  text-align: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  float: right;
 }
-
+@media only screen and (max-width: 766px) {
+  nav ul {
+    padding-top: 10px;
+    margin-bottom: 22px;
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+}
 nav ul li {
   display: inline-block;
+  margin-left: 35px;
+  line-height: 1.5;
 }
-
-nav ul li a {
-  padding: 10px;
-  font-family: "Open Sans";
-  text-transform:uppercase;
-  color: #bfbfbf;
-  font-size: 18px;
-  text-decoration: none;
-  display: block;
-}
-
-nav ul li a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: #a55700;
-  color: white;
-}
-
-
-/**
-.nav {
-	position: absolute;
-    top: 0px;
-    left: 0px;
+@media only screen and (max-width: 766px) {
+  nav ul li {
     width: 100%;
-    height: 60px;
-    background-color: none;
-   
+    padding: 7px 0;
+    margin: 0;
+  }
+}
+nav ul a {
+  color: #888888;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
-.nav h1 {
-	font-size: 15px;
-	color: #ffc380;
-	background-color: none;
-	border: 1px solid #a55700;
-	padding: 10px 10px;
-	margin-left: 10px;
-	width: 15%;
+.mobile-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 22px;
+  top: 0;
+  width: 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
 }
-**/
-
-/**
-.nav a {
- 	float: left;
-    display: block;
-    color: #7e6225;
-    text-align: right;
-    text-decoration: none;
-    font-size: 10px;
-    background-color: none;
-}
-.nav ul li {
-    display: inline-block;
-    border: 1px solid #a55700;
-    background-color: none;
-
-}
-.nav ul {
-	background-color: #ffa239;
-    display: block;
-    float: left;
-    list-style: none;
-    line-height: 60px;
-    font-weight: 400;
-    text-align: center;
-    background-color: none;
-}
-.nav li  {
-	width: 60px;
-	border: 1px solid;
-
-}
-**/
-/** T????? 
-@media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {display: none;}
-  .nav a.icon {
-    float: right;
+@media only screen and (max-width: 766px) {
+  .mobile-toggle {
     display: block;
   }
 }
-**/
+.mobile-toggle span {
+  width: 30px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 1000px;
+  background: #8f8f8f;
+  display: block;
+}
+
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+* {
+  box-sizing: border-box;
