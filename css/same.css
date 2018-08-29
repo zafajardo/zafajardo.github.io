@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Dancing+Script|Fjalla+One|Indie+Flower|Lobster|Rubik|Source+Code+Pro|Titillium+Web');
+
+body, html {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    background-color:  #535D73;
+}
+h3 {
+    text-align: center;
+}
+.header-text {
+    font-size: 2em;
+    text-align: center;
+}
+.container {
+    border-radius: 5px;
+    margin: 50px;
+    color: #fff;
+    background-color: #45474F;
+    padding: 10px;
+}
+.wrapper {
+    font-family: 'Abel', Arial, Helvetica, sans-serif;
+}
+
+/***** BUTTTONNNNN******/
+.btna {
+    text-align: center;
+}
+.btn {
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #45474F;
+    transition: .5s ease-in-out;
+}

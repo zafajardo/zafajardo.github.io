@@ -1,0 +1,85 @@
+h3 {
+    text-align: center;
+}
+.wrapper h3{
+    color: #7993FF;
+}
+
+/* Indent */
+.indent p {
+    text-indent: 50px;
+}
+.indent p:nth-child(3) {
+    text-indent: 50%;
+}
+
+
+
+/* normal|length|initial|inherit; */
+/* letter spacing */
+.letter-spacing p {
+        letter-spacing: 5px;
+}
+
+
+
+/* normal|length|initial|inherit; */
+/* Word Spacing */
+.word-spacing p {
+    word-spacing: 20px;
+}
+
+
+
+
+
+/*     TEXT DECORATION      */
+/* text-decoration-line | text-decoration-color | text-decoration-style|initial|inherit; */
+.text-decoration {
+    text-align: center;
+}
+.overline {
+    text-decoration: overline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.underline {
+    text-decoration: underline;
+}
+a:link {
+    text-decoration: none;
+}
+
+/*     TEXT TRANSFORM      */
+/* none|capitalize|uppercase|lowercase|initial|inherit; */
+.text-transform {
+    text-align: center;
+}
+.text-transform .ltr {
+
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+/*     TEXT DIRECTION      */
+.text-direction p { 
+    direction: rtl; /* ltr|rtl|initial|inherit; */
+}
+.text-direction .ltr {
+    direction: ltr; /* ltr|rtl|initial|inherit; */
+}
+
+/*     TEXT SHADOW      */
+.text-shadow p {
+    text-shadow: 2px 2px 8px orange;
+}
+
+

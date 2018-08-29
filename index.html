@@ -1,62 +1,112 @@
-<!Doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Text Properties 101</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/same.css">
+</head>
+<body>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<html>
-<title>No Title</title>
-<link rel="icon" href="img/fd.png">
-<link rel="stylesheet" href="./css/main.css">
-<link rel="stylesheet" href="./css/nav.css">
-<link rel="stylesheet" href="./css/searchbutton.css">
-<!-- development version, includes helpful console warnings -->
-<script type="text/javascript" src="./js/navstyle.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<div class="container">
+   <div class="header-text">
+       <h1>
+            Text Properties
+       </h1>
+   </div>
+</div>
 
+<!-- color -->
+<div class="container">
+   <div class="wrapper">
+       <h3>This will header will have a different color.</h3>
 
-	<body>
+   </div>
+</div>
 
-<h1 class="title">Zack</h1>
+<!-- Indent -->
+<div class="container">
+<div class="indent">
+    <h3>Text Indent</h3>
+       <p>This paragraph will have indent of "50px"</p>
+       <p>This one will have a "50%" indent</p>
+</div>
+</div>
 
-<header class="main_h">
+<!-- Indent -->
+<div class="container">
+<div class="letter-spacing">
+    <h3>Letter Spacing</h3>
+    <p>This text has letter spacing applied</p>
+</div>
+</div>
 
-    <div class="row">
-        <a class="logo" href="#">P/F</a>
-
-        <div class="mobile-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+<!-- Word Space -->
+<div class="container">
+        <div class="word-spacing">
+        <h3>Word Spacing</h3>
+        <p>This text has word spacing applied</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Repellat eveniet consequatur voluptatum totam accusantium repellendus 
+            soluta porro. Corrupti rerum, ducimus quia sapiente voluptatem ipsa! 
+            Consequatur ut beatae quisquam soluta ab.
+        </p>
         </div>
-
-        <nav>
-            <ul>
-                <li><a href=".sec01">Section 01</a></li>
-                <li><a href=".sec02">Section 02</a></li>
-                <li><a href=".sec03">Section 03</a></li>
-                <li><a href=".sec04">Section 04</a></li>
-            </ul>
-        </nav>
-
-    </div> <!-- / row -->
-
-</header>
-
-<div class="topsearch">
-	<input type="text" name="search" placeholder="Search...">
 </div>
 
-<!-- /container lang.. responsive -->
-<div class="hero">
+<!-- Text Decoration -->
+<div class="container">
+        <div class="text-decoration">
+        <h3>Text Decoration</h3>
 
-    <h1><span>I'm a cool</span><br>Navigation</h1>
+        <p class="overline">This text has a line over the top</p>
+        <p class="line-through">This text has a line through the middle</p>
+        <p class="underline">This text has a line underneath</p>
+        <a href="#" target="_blank">This hyperlink has no underline</a>    
 
-    <div class="mouse">
-        <span></span>
-    </div>
-
+        </div>
 </div>
 
+<!-- Text Transform -->
+<div class="container">
+        <div class="text-transform">
+        <h3>Text Transform</h3>
+        
+        <p class="uppercase">This text has been transformed to uppercase</p>
+        <p class="lowercase">THIS TEXT HAS BEEN TRANSFORMED TO LOWERCASE</p>
+        <p class="capitalize">this text has been capitalized.</p>  
 
-		
-	</body>
+        </div>
+</div>
+
+<!-- Text Direction -->
+<div class="container">
+        <div class="text-direction">
+        <h3>Word Spacing</h3>
+        <p>This text is running from right to left. This can be useful 
+            for languages where the text runs from right to left. 
+            Not so useful for english though...
+        </p>
+        <p class="ltr">
+            This text is running from left to right. This is the default value
+        </p>
+        </div>
+</div>
+
+<!-- Text Shadow -->
+<div class="container">
+        <div class="text-shadow">
+        <h3>Text Shadow</h3>
+
+        <p>If your browser supports the CSS text-shadow property, this text will have a shadow.</p>
+
+
+        </div>
+</div>
+<div class="btna">
+<a class="btn" href="2nd.html">Next</a>
+</div>
+</body>
 </html>

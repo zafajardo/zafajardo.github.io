@@ -1,0 +1,26 @@
+.btna {
+    margin-top: 15px;
+}
+
+/* White Space */
+.white-space p {
+    white-space: pre; /* normal|nowrap|pre|pre-line|pre-wrap|initial|inherit; */
+}
+
+/* Unicode */
+
+.uni p {
+    direction: rtl;
+    unicode-bidi: bidi-override; /* normal|embed|bidi-override|initial|inherit */
+}
+
+
+/* Vertical */
+
+
+.vertigal {
+    vertical-align: super; /* baseline|length|sub|super|top|text-top|middle|bottom|text-bottom|initial|inherit; */
+}
+.bottom {
+    vertical-align: sub;
+}
