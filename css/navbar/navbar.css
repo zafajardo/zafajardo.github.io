@@ -1,0 +1,81 @@
+/** smallest container nav **/
+.smallnav {
+  width: 100%;
+  background-color: #303030;
+  color: #fff;
+  text-align: center;
+}
+
+.smallnav ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.smallnav li {
+  margin: 20px;
+  display: inline;
+}
+
+.smallnav ul li a {
+  text-decoration: none;
+  color: #838383;
+}
+
+.smallnav .active {
+  border-bottom: 2px solid #fff;
+}
+
+.smallnav .active:hover {
+  border-color: #0053A0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.smallnav a:hover {
+  color: #B8B8B8;
+}
+
+/* icons in nav */
+.socialicons {
+  font-size: 25px;
+  border: 2px solid #fff;
+  padding: 5px 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.socialicons a {
+  color: #fff;
+  /* papalitan pa */
+}
+
+.socialicons a:hover {
+  opacity: 0.5;
+}
+
+.search {
+  font-size: 25px;
+  display: inline-block;
+}
+
+/** navbar **/
+nav {
+  width: 100%;
+  background-color: #0053A0;
+}
+
+.navbar-text {
+  font-size: 35px;
+}
+
+.navbar-nav {
+  text-align: left;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.navbar-nav li {
+  padding: 5px 20px;
+}
+/*# sourceMappingURL=navbar.css.map */
