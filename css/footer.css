@@ -20,6 +20,17 @@ footer {
     grid-template-columns: 60% auto;
 
 }
+.main-footer ul {
+    display: flex;
+}
+
+.main-footer a {
+    font-size: 1.2em;
+}
+.main-footer a:hover {
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
 footer .footer-content {
     border-left: 1px solid #839192;
 }
