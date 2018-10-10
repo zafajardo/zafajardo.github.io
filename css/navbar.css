@@ -1,0 +1,64 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    display: flex;
+    background-color: transparent;
+    color: #fff;
+}
+.logo {
+    margin-left: 30px;
+    margin-right: auto; 
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 1em;
+}
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+}
+nav ul a:hover {
+    opacity: 0.6;
+}
+nav .fa-user {
+    font-size: 1.5em;
+}
+nav .fa-shopping-cart{
+    font-size: 1.5em;
+}
+.navcontent {
+    margin: 50px;
+}
+/*PRODUCT NAV / SIMPLE NAV */
+.simple-nav {
+    width: 100%;    
+}
+.simple-nav ul {
+
+    border-radius: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.simple-nav ul li {
+    margin: 10px;
+}
+.simple-nav ul a {
+    text-decoration: none;
+    font-size: 2em;
+    color: rgba(78, 78, 78, 0.781);
+}
+.simple-nav ul a:hover {
+    color: #FF6631;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+.simple-nav .active {
+    color: #FF6631;
+}
