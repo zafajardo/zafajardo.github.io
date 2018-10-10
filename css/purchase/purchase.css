@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Krub');
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0 auto;
+    padding: 0;
+}
+nav {
+    top: 0;
+    position: sticky;
+    background-color: transparent;
+    z-index: 2;
+}
+.content {
+    background-position: center;
+    height: 50vh;
+}
+.content-overlay {
+    height: 50vh;
+}
+body {
+    font-family: 'Krub', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    background-image: url(../../img/ewan.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+.purchase-container {
+    width: 100%;
+    background-color: #ccc;
+    clear: both;
+}
+.left {
+    float: left;
+    width: 55%;
+}
