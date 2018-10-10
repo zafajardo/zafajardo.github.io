@@ -106,8 +106,8 @@ body {
 }
 
 .slice-pick img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 .slice-pick img:hover {
     -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
