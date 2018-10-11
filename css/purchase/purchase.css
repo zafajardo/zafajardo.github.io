@@ -29,7 +29,27 @@ body {
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
 .purchase-container {
     width: 100%;
     background-color: #ccc;
@@ -51,13 +71,13 @@ body {
     float: left;
     width: 55%;
     height: 90vh;
-    background-color: #FFC17F;
+    background-color: #ECF0F1;
 }
 .right {
     float: right;
     width: 45%;
     height: 90vh;
-    background-color: #7FB1FF;
+    background-color: #D6EAF8;
     text-align: left;
 }
 .like {
@@ -68,7 +88,7 @@ body {
     padding: 15px 20px;
 }
 .like:hover {
-    opacity: 0.8;
+    color: #2E86C1;
     transition: 0.4s;
 }
 .like a:hover {
@@ -95,6 +115,37 @@ body {
 .product-buy {
     padding: 20px;
 }
+/*******THE NEW UPDATE*********/
+
+.imagebtn {
+    width: 100%;
+    text-align: center;
+}
+.imagebtn img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.imagebtn img:hover {
+    border-color: #2471A3;
+    transition: 0.4s ease-in-out;
+}
+.radio-img  > input { 
+    display:none;
+}
+  
+.radio-img  > img{
+    cursor:pointer;
+    border:2px solid transparent;
+}
+  
+.radio-img  > input:checked + img{ 
+    border:2px solid orange;
+}
+
+/*******OLD*********/
+/***
 .slice-pick {
     display: flex;
     list-style: none;
@@ -114,6 +165,9 @@ body {
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     border: 2px solid #FFC17F;
 }
+****/
+
+
 .order {
     display: block;
     text-align: center;
